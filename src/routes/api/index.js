@@ -10,3 +10,4 @@ route.use('/tags',require('./tags'))
 route.use('/articles',require('./articles'))
 
 module.exports=route
+ 

@@ -4,13 +4,16 @@ const route=Router()
 
 
 route.get('/',(req,res)=>{
-
+    //TODO:send current user
     res.send({
 
-            "user":{
-                "name":"rafa",
-                "lastname":"benrhouma",
-            }
+        "user": {
+            "email": "jake@jake.jake",
+            "token": "jwt.token.here",
+            "username": "jake",
+            "bio": "I work at statefarm",
+            "image": null
+          }
     })
 
 })
